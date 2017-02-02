@@ -128,14 +128,14 @@ namespace bingo
 
             }
             Console.SetCursorPosition(46, 0);
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("JUGADOR 1");
 
             for (int i = 0; i < 5; i++)
             {
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.SetCursorPosition((i * 4) + 42, (j * 1) + 1);
+                    Console.SetCursorPosition((i * 4) + 42, (j * 1) + 2);
                     Console.ForegroundColor = ConsoleColor.White;
                     foreach (int item in pila2)
                     {
@@ -151,15 +151,15 @@ namespace bingo
                 }
             }
 
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.SetCursorPosition(46, 4);
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.SetCursorPosition(46, 6);
             Console.Write("JUGADOR 2");
             for (int i = 0; i < 5; i++)
             {
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.SetCursorPosition((i * 4) + 42, (j * 1) + 5);
+                    Console.SetCursorPosition((i * 4) + 42, (j * 1) + 8);
                     Console.ForegroundColor = ConsoleColor.White;
                     foreach (int item in pila2)
                     {
@@ -176,8 +176,8 @@ namespace bingo
 
 
 
-            Console.SetCursorPosition(46, 8);
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.SetCursorPosition(46, 12);
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("JUGADOR 3");
             Console.SetCursorPosition(2, 21);
             Console.ForegroundColor = ConsoleColor.White;
@@ -186,7 +186,7 @@ namespace bingo
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.SetCursorPosition((i * 4) + 42, (j * 1) + 9);
+                    Console.SetCursorPosition((i * 4) + 42, (j * 1) + 14);
                     Console.ForegroundColor = ConsoleColor.White;
                     foreach (int item in pila2)
                     {
@@ -205,15 +205,15 @@ namespace bingo
 
 
 
-            Console.SetCursorPosition(46, 12);
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.SetCursorPosition(46, 18);
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("JUGADOR 4");
             for (int i = 0; i < 5; i++)
             {
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.SetCursorPosition((i * 4) + 42, (j * 1) + 13);
+                    Console.SetCursorPosition((i * 4) + 42, (j * 1) + 20);
                     Console.ForegroundColor = ConsoleColor.White;
                     foreach (int item in pila2)
                     {
@@ -231,15 +231,15 @@ namespace bingo
 
 
 
-            Console.SetCursorPosition(46,16 );
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.SetCursorPosition(46,24);
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("JUGADOR 5");
             for (int i = 0; i < 5; i++)
             {
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.SetCursorPosition((i * 4) + 42, (j * 1) + 17);
+                    Console.SetCursorPosition((i * 4) + 42, (j * 1) + 26);
                     Console.ForegroundColor = ConsoleColor.White;
                     foreach (int item in pila2)
                     {
@@ -255,15 +255,15 @@ namespace bingo
 
 
 
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.SetCursorPosition(46, 20);
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.SetCursorPosition(46, 30);
             Console.Write("JUGADOR 6");
             for (int i = 0; i < 5; i++)
             {
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.SetCursorPosition((i * 4) + 42, (j * 1) + 21);
+                    Console.SetCursorPosition((i * 4) + 42, (j * 1) + 32);
                     Console.ForegroundColor = ConsoleColor.White;
                     foreach (int item in pila2)
                     {
@@ -278,14 +278,14 @@ namespace bingo
             }
 
             Console.SetCursorPosition(73, 0);
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("JUGADOR 7");
             for (int i = 0; i < 5; i++)
             {
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.SetCursorPosition((i * 4) + 69, (j * 1) + 1);
+                    Console.SetCursorPosition((i * 4) + 69, (j * 1) + 2);
                     Console.ForegroundColor = ConsoleColor.White;
                     foreach (int item in pila2)
                     {
@@ -299,15 +299,15 @@ namespace bingo
                 }
             }
 
-            Console.SetCursorPosition(73, 4);
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.SetCursorPosition(73, 6);
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("JUGADOR 8");
             for (int i = 0; i < 5; i++)
             {
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.SetCursorPosition((i * 4) + 69, (j * 1) + 5);
+                    Console.SetCursorPosition((i * 4) + 69, (j * 1) + 8);
                     Console.ForegroundColor = ConsoleColor.White;
                     foreach (int item in pila2)
                     {
@@ -320,15 +320,15 @@ namespace bingo
                     Console.Write(matriz8[i, j]);
                 }
             }
-            Console.SetCursorPosition(73, 8);
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.SetCursorPosition(73, 12);
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("JUGADOR 9");
             for (int i = 0; i < 5; i++)
             {
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.SetCursorPosition((i * 4) + 69, (j * 1) + 9);
+                    Console.SetCursorPosition((i * 4) + 69, (j * 1) + 14);
                     Console.ForegroundColor = ConsoleColor.White;
                     foreach (int item in pila2)
                     {
@@ -341,15 +341,15 @@ namespace bingo
                     Console.Write(matriz9[i, j]);
                 }
             }
-            Console.SetCursorPosition(73, 12);
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.SetCursorPosition(73, 18);
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("JUGADOR 10");
             for (int i = 0; i < 5; i++)
             {
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.SetCursorPosition((i * 4) + 69, (j * 1) + 13);
+                    Console.SetCursorPosition((i * 4) + 69, (j * 1) + 20);
                     Console.ForegroundColor = ConsoleColor.White;
                     foreach (int item in pila2)
                     {
@@ -362,15 +362,15 @@ namespace bingo
                     Console.Write(matriz10[i, j]);
                 }
             }
-            Console.SetCursorPosition(73, 16);
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.SetCursorPosition(73, 24);
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("JUGADOR 11");
             for (int i = 0; i < 5; i++)
             {
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.SetCursorPosition((i * 4) + 69, (j * 1) + 17);
+                    Console.SetCursorPosition((i * 4) + 69, (j * 1) + 26);
                     Console.ForegroundColor = ConsoleColor.White;
                     foreach (int item in pila2)
                     {
@@ -383,15 +383,15 @@ namespace bingo
                     Console.Write(matriz11[i, j]);
                 }
             }
-            Console.SetCursorPosition(73, 20);
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.SetCursorPosition(73, 30);
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("JUGADOR 12");
             for (int i = 0; i < 5; i++)
             {
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.SetCursorPosition((i * 4) + 69, (j * 1) + 21);
+                    Console.SetCursorPosition((i * 4) + 69, (j * 1) + 32);
                     Console.ForegroundColor = ConsoleColor.White;
                     foreach (int item in pila2)
                     {
@@ -405,14 +405,14 @@ namespace bingo
                 }
             }
             Console.SetCursorPosition(100, 0);
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("JUGADOR 13");
             for (int i = 0; i < 5; i++)
             {
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.SetCursorPosition((i * 4) + 96, (j * 1) + 1);
+                    Console.SetCursorPosition((i * 4) + 96, (j * 1) + 2);
                     Console.ForegroundColor = ConsoleColor.White;
                     foreach (int item in pila2)
                     {
@@ -425,15 +425,15 @@ namespace bingo
                     Console.Write(matriz13[i, j]);
                 }
             }
-            Console.SetCursorPosition(100, 4);
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.SetCursorPosition(100, 6);
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("JUGADOR 14");
             for (int i = 0; i < 5; i++)
             {
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.SetCursorPosition((i * 4) + 96, (j * 1) + 5);
+                    Console.SetCursorPosition((i * 4) + 96, (j * 1) + 8);
                     Console.ForegroundColor = ConsoleColor.White;
                     foreach (int item in pila2)
                     {
@@ -446,15 +446,15 @@ namespace bingo
                     Console.Write(matriz14[i, j]);
                 }
             }
-            Console.SetCursorPosition(100, 8);
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.SetCursorPosition(100, 12);
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("JUGADOR 15");
             for (int i = 0; i < 5; i++)
             {
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.SetCursorPosition((i * 4) + 96, (j * 1) + 9);
+                    Console.SetCursorPosition((i * 4) + 96, (j * 1) + 14);
                     Console.ForegroundColor = ConsoleColor.White;
                     foreach (int item in pila2)
                     {
@@ -467,15 +467,15 @@ namespace bingo
                     Console.Write(matriz15[i, j]);
                 }
             }
-            Console.SetCursorPosition(100, 12);
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.SetCursorPosition(100, 18);
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("JUGADOR 16");
             for (int i = 0; i < 5; i++)
             {
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.SetCursorPosition((i * 4) + 96, (j * 1) + 13);
+                    Console.SetCursorPosition((i * 4) + 96, (j * 1) + 20);
                     Console.ForegroundColor = ConsoleColor.White;
                     foreach (int item in pila2)
                     {
@@ -488,15 +488,15 @@ namespace bingo
                     Console.Write(matriz16[i, j]);
                 }
             }
-            Console.SetCursorPosition(100, 16);
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.SetCursorPosition(100, 24);
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("JUGADOR 17");
             for (int i = 0; i < 5; i++)
             {
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.SetCursorPosition((i * 4) + 96, (j * 1) + 17);
+                    Console.SetCursorPosition((i * 4) + 96, (j * 1) + 26);
                     Console.ForegroundColor = ConsoleColor.White;
                     foreach (int item in pila2)
                     {
@@ -509,15 +509,15 @@ namespace bingo
                     Console.Write(matriz17[i, j]);
                 }
             }
-            Console.SetCursorPosition(100, 20);
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.SetCursorPosition(100, 30);
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("JUGADOR 18");
             for (int i = 0; i < 5; i++)
             {
 
                 for (int j = 0; j < 3; j++)
                 {
-                    Console.SetCursorPosition((i * 4) + 96, (j * 1) + 21);
+                    Console.SetCursorPosition((i * 4) + 96, (j * 1) + 32);
                     Console.ForegroundColor = ConsoleColor.White;
                     foreach (int item in pila2)
                     {
@@ -977,6 +977,8 @@ namespace bingo
             int aleatorio = 0;
             bool estado = true;
             mostrar(matriz, pila);
+            string[] ganadores;
+            ganadores = new string[18];
             while (f != cont && estado)
             {
                 aleatorio = r.Next(1, 90);
@@ -1005,7 +1007,7 @@ namespace bingo
                         string part2 = voz[1].ToString();
                         
                         synth.Speak(part1);
-                        Thread.Sleep(100);
+                        Thread.Sleep(20);
                         synth.Speak("i");
                         synth.Speak(part2);
                            
@@ -1016,224 +1018,118 @@ namespace bingo
                         marcarjugadores(pila);
                         mostrar(matriz, pila);
                         synth.Speak(voz);
-                        Thread.Sleep(100);
+                        Thread.Sleep(20);
                         synth.Speak(voz);
                         
-                    }
-
-
-                    
-                     
-                    //Console.Beep();
+                    }                   
                     marcarjugadores(pila);
                     if (lista1.Count == 0)
                     {
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.SetCursorPosition(10, 24);
-                        synth.Speak("BINGO, BINGO JUGADOR 1");
-                        Console.WriteLine("BINGOOOOOOOOOO JUGADOR 1");
-                        ganador();
-                        Console.ReadKey();
-                        //Console.Clear();
+                        ganadores[0] = "BINGO JUGADOR 1";
                         estado = false;
                         
                     }
                     if (lista2.Count == 0)
                     {
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.SetCursorPosition(10, 16);
-                        synth.Speak("BINGO,BINGO JUGADOR 2");
-                        Console.WriteLine("BINGOOOOOOOOOO JUGADOR 2");
-                        ganador();
-                        Console.ReadKey();
-                        //Console.Clear();
+                        ganadores[1] = "BINGO JUGADOR 2";
                         estado = false;
                     }
                     if (lista3.Count == 0)
                     {
-                        synth.Speak("BINGO,BINGO JUGADOR 3");
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.SetCursorPosition(10, 17);
-                        Console.WriteLine("BINGOOOOOOOOOO JUGADOR 3");
-                        ganador();
-                        Console.ReadKey();
-                        //Console.Clear();
+                        ganadores[2] = "BINGO JUGADOR 3";
                         estado = false;
                     }
                     if (lista4.Count == 0)
                     {
-                        synth.Speak("BINGO,BINGO JUGADOR 4");
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.SetCursorPosition(10, 18);
-                        Console.WriteLine("BINGOOOOOOOOO JUGADOR 4");
-                        ganador();
-                        //Console.Clear();
-                        Console.ReadKey();
+                        ganadores[3] = "BINGO JUGADOR 4";
                         estado = false;
                         
                     }
                     if (lista5.Count == 0)
                     {
-                        synth.Speak("BINGO,BINGO JUGADOR 5");
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.SetCursorPosition(10, 19);
-                        Console.WriteLine("BINGOOOOOOOOO JUGADOR 5");
-                        ganador();
-                        Console.ReadKey();
+                        ganadores[4] = "BINGO JUGADOR 5";
                         estado = false;
                     }
                     if (lista6.Count == 0)
                     {
-                        synth.Speak("BINGO,BINGO JUGADOR 6");
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.SetCursorPosition(10, 20);
-                        Console.WriteLine("BINGOOOOOOOOO JUGADOR 6");
-                        ganador();
-                        Console.ReadKey();
-                        //Console.Clear();
+                        ganadores[5] = "BINGO JUGADOR 6";
                         estado = false;
                     }
                     if (lista7.Count == 0)
                     {
-                        synth.Speak("BINGO,BINGO JUGADOR 7");
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.SetCursorPosition(10, 20);
-                        Console.WriteLine("BINGOOOOOOOOO JUGADOR 7");
-                        ganador();
-                        Console.ReadKey();
-                        //Console.Clear();
+                        ganadores[6] = "BINGO JUGADOR 7";
                         estado = false;
                     }
                     if (lista8.Count == 0)
                     {
-                        synth.Speak("BINGO,BINGO JUGADOR 8");
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.SetCursorPosition(10, 20);
-                        Console.WriteLine("BINGOOOOOOOOO JUGADOR 8");
-                        ganador();
-                        Console.ReadKey();
-                        //Console.Clear();
+                        ganadores[7] = "BINGO JUGADOR 8";
                         estado = false;
                     }
                     if (lista9.Count == 0)
                     {
-                        synth.Speak("BINGO,BINGO JUGADOR 9");
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.SetCursorPosition(10, 20);
-                        Console.WriteLine("BINGOOOOOOOOO JUGADOR 9");
-                        ganador();
-                        Console.ReadKey();
-                        //Console.Clear();
+                        ganadores[8] = "BINGO JUGADOR 9";
                         estado = false;
                     }
                     if (lista10.Count == 0)
                     {
-                        synth.Speak("BINGO,BINGO JUGADOR 10");
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.SetCursorPosition(10, 20);
-                        Console.WriteLine("BINGOOOOOOOOO JUGADOR 10");
-                        ganador();
-                        Console.ReadKey();
-                        //Console.Clear();
+                        ganadores[9] = "BINGO JUGADOR 10";
                         estado = false;
                     }
                     if (lista11.Count == 0)
                     {
-                        synth.Speak("BINGO,BINGO JUGADOR 11");
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.SetCursorPosition(10, 20);
-                        Console.WriteLine("BINGOOOOOOOOO JUGADOR 11");
-                        ganador();
-                        Console.ReadKey();
-                        //Console.Clear();
+                        ganadores[10] = "BINGO JUGADOR 11";
                         estado = false;
                     }
                     if (lista12.Count == 0)
                     {
-                        synth.Speak("BINGO,BINGO JUGADOR 12");
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.SetCursorPosition(10, 20);
-                        Console.WriteLine("BINGOOOOOOOOO JUGADOR 12");
-                        ganador();
-                        Console.ReadKey();
-                        //Console.Clear();
+                        ganadores[11] = "BINGO JUGADOR 12";
                         estado = false;
                     }
                     if (lista13.Count == 0)
                     {
-                        synth.Speak("BINGO,BINGO JUGADOR 13");
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.SetCursorPosition(10, 20);
-                        Console.WriteLine("BINGOOOOOOOOO JUGADOR 13");
-                        ganador();
-                        Console.ReadKey();
-                        //Console.Clear();
+                        ganadores[12] = "BINGO JUGADOR 13";
                         estado = false;
                     }
                     if (lista14.Count == 0)
                     {
-                        synth.Speak("BINGO,BINGO JUGADOR 14");
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.SetCursorPosition(10, 20);
-                        Console.WriteLine("BINGOOOOOOOOO JUGADOR 14");
-                        ganador();
-                        Console.ReadKey();
-                        //Console.Clear();
+                        ganadores[13] = "BINGO JUGADOR 14";
                         estado = false;
                     }
                     if (lista15.Count == 0)
                     {
-                        synth.Speak("BINGO,BINGO JUGADOR 15");
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.SetCursorPosition(10, 20);
-                        Console.WriteLine("BINGOOOOOOOOO JUGADOR 15");
-                        ganador();
-                        Console.ReadKey();
-                        //Console.Clear();
+                        ganadores[14] = "BINGO JUGADOR 15";
                         estado = false;
                     }
                     if (lista16.Count == 0)
                     {
-                        synth.Speak("BINGO,BINGO JUGADOR 16");
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.SetCursorPosition(10, 20);
-                        Console.WriteLine("BINGOOOOOOOOO JUGADOR 16");
-                        ganador();
-                        Console.ReadKey();
-                        //Console.Clear();
+                        ganadores[15] = "BINGO JUGADOR 16";
                         estado = false;
                     }
                     if (lista17.Count == 0)
                     {
-                        synth.Speak("BINGO,BINGO JUGADOR 17");
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.SetCursorPosition(10, 20);
-                        Console.WriteLine("BINGOOOOOOOOO JUGADOR 17");
-                        ganador();
-                        Console.ReadKey();
-                        //Console.Clear();
+                        ganadores[16] = "BINGO JUGADOR 17";
                         estado = false;
                     }
                     if (lista18.Count == 0)
                     {
-                        synth.Speak("BINGO,BINGO JUGADOR 18");
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.SetCursorPosition(10, 20);
-                        Console.WriteLine("BINGOOOOOOOOO JUGADOR 18");
-                        ganador();
-                        Console.ReadKey();
-                        //Console.Clear();
+                        ganadores[17] = "BINGO JUGADOR 18";
                         estado = false;
                     }
-
-
-
-
-                    //Console.ForegroundColor = ConsoleColor.Yellow;
-                    Thread.Sleep(500);
-                    Console.Clear();
+                   
                 }
                
+            }
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.SetCursorPosition(5, 17);
+            Console.Write("LISTA DE GANADORES");
+            ganador();
+            int j = 0;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            foreach (var item in ganadores)
+            {
+                Console.SetCursorPosition(5 , (19 + j));
+                Console.Write(item);
+                j++;
             }
             Console.ReadKey();
         }
@@ -1244,52 +1140,140 @@ namespace bingo
             player2.SoundLocation = "snake1.wav";
             player2.Play();
         }
+        static void intropozo()
+        {
+            /*SoundPlayer player = new SoundPlayer();
+            player.SoundLocation = "pozo.wav";
+            player.Play();
+            Console.SetCursorPosition(30, 17);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("SI DAS AMOR");
+            Thread.Sleep(3000);
+            Console.Clear();
+            Console.SetCursorPosition(30, 7);
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("MERECES AMOR");
+            Thread.Sleep(3000);
+            Console.Clear();
+            Console.SetCursorPosition(60, 7);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("SI DAS LA VIDA POR TU PAIS");
+            Thread.Sleep(3000);
+            Console.Clear();
+            Console.SetCursorPosition(60, 17);
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("MERECES SER INMORTAL");
+            Thread.Sleep(3000);
+            Console.Clear();
+            Console.SetCursorPosition(45, 10);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("SI DAS YAPA ");
+            Thread.Sleep(4000);
+            Console.Clear();
+            Console.SetCursorPosition(17, 19);
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("MERECES MÁS CLIENTES");
+            Thread.Sleep(4000);
+            Console.Clear();
+            Console.SetCursorPosition(45, 10);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("SI DAS LA CLASIFICACIÓN AL MUNDIAL");
+            Thread.Sleep(3000);
+            Console.Clear();
+            Console.SetCursorPosition(65, 26);
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("MERECES LA GLORIA");
+            Thread.Sleep(4000);
+            Console.Clear();
+            Console.SetCursorPosition(65, 8);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("PERO LOS QUE MÁS MERECEN");
+            Thread.Sleep(4000);
+            Console.Clear();
+            Console.SetCursorPosition(25, 26);
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("SON LOS QUE QUIEREN DARLE");
+            Thread.Sleep(9000);
+            Console.Clear();
+            Console.SetCursorPosition(25, 15);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("TODO A SU FAMILIA");
+            Thread.Sleep(10000);
+            Console.Clear();*/
+            Console.SetCursorPosition(50, 8);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write("POZO MILLONARIO");
+            Console.SetCursorPosition(51, 11);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write("TE LO MERECES");
+            SpeechSynthesizer synth = new SpeechSynthesizer();
+            synth.SetOutputToDefaultAudioDevice();
+            synth.Speak("HOLA, MI NOMBRE ES SASHA GREY");
+            Thread.Sleep(500);
+            synth.Speak("BIENVENIDO AL JUEGO DEL BINGO, DESARROLLADO POR MI CREADOR LUIS SUAREZ , PRESIONA ENTER PARA COMENZAR");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.SetCursorPosition(19, 17);
+            SoundPlayer player1 = new SoundPlayer();
+            player1.SoundLocation = "gona.wav";
+            player1.Play();
+            Console.Write("Aguantas mientras avanzas, hay que soportar sin dejar de avanzar, así es como se gana.".ToUpper());
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.SetCursorPosition(37, 24);
+            Console.Write("PRESIONA ENTER PARA EMPEZAR CON EL JUEGO");
+            Console.ReadKey();
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.SetCursorPosition(42, 20);
+            Console.Write("Cargando Tablas...........OK");
+            Console.Beep();
+            Thread.Sleep(2000);
+            Console.SetCursorPosition(42, 21);
+            Console.Write("Cargando Bolas............OK");
+            Console.Beep();
+            Thread.Sleep(2000);
+            Console.SetCursorPosition(42, 22);
+            Console.Write("Cargando Tablero..........OK");
+            Console.Beep();
+            Thread.Sleep(2000);
+            Console.SetCursorPosition(42, 24);
+            Console.Write("LISTO");
+            Console.Beep();
+            Thread.Sleep(1000);
+            player1.Stop();
+            player1.SoundLocation = "impacto.wav";
+            player1.Play();
+            Console.Clear();
+        }
         static void Main(string[] args)
         {
 
-            Console.SetCursorPosition(30, 3);
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write("BIENVENIDOS AL JUEGO DEL BINGO FULL HD 4K CON VOZ MASTERRACER");
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.SetCursorPosition(45, 7);
-            Console.Write("by Luis Suárez");
-            SpeechSynthesizer synth = new SpeechSynthesizer();
-            synth.SetOutputToDefaultAudioDevice();
-            synth.Speak("HOLA MI NOMBRE ES SASHA GREY");
-            Thread.Sleep(500);
-            synth.Speak("BIENVENIDO AL JUEGO DEL BINGO, DESARROLLADO POR MI CREADOR LUIS SUAREZ , PRESIONA ENTER PARA COMENZAR");
-            Console.SetCursorPosition(45, 10);
-            Console.Write("PRESIONA ENTER PARA EMPEZAR CON EL JUEGO");
-            SoundPlayer player = new SoundPlayer();
-            player.SoundLocation = "shaky.wav";
-            player.Play();
-            Console.ReadKey();
-            player.Stop();
-            SoundPlayer player1 = new SoundPlayer();
-            player1.SoundLocation = "tigre.wav";
-            player1.Play();
-            player1.Stop();
+            intropozo();
             Console.Clear();
             menu();
-
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.SetCursorPosition(8, 23);
-            Console.Write("DESEA VOLVER A JUGAR SI/NO ===>  ");
-            
-            string respuesta = Console.ReadLine();
-            if (respuesta.ToUpper() == "SI")
+            while (true)
             {
-                player1.Play();
-                limpiarlistas();
                 Console.Clear();
-                Console.ForegroundColor = ConsoleColor.White;
-                menu();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.SetCursorPosition(50, 8);
+                Console.Write("DESEA VOLVER A JUGAR SI/NO ===>  ");
+                Console.ForegroundColor = ConsoleColor.Red;
+                string respuesta = Console.ReadLine();
+                if (respuesta.ToUpper() == "SI")
+                {
+                    //player1.Play();
+                    limpiarlistas();
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.White;
+                    menu();
+
+                }
+                if (respuesta.ToUpper() == "NO")
+                {
+                    Environment.Exit(0);
+                }
                 
             }
-            if (respuesta.ToUpper() == "NO")
-            {
-                Environment.Exit(0);
-            }
+            
             
         }
     }
